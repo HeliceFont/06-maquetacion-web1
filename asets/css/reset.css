@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;/*Compatibilidad con navegadores*/
+}
+
+*,
+*::before,
+*::after{
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; /*Compatibilidad con navegadores*/
+}
+html{
+    scroll-behavior: smooth; /*Scroll suavizado*/
+}
+body{
+    min-height: 100vh;/* Que ocupe el 100% de la altura vertical que tiene la página*/ 
+    scroll-behavior: smooth; /*Scroll suavizado*/
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+}
+
+ul, ol{
+    list-style: none;
+}
+a{
+    display: block;
+    text-decoration: none;
+    font-family: inherit;/*Heredado*/
+    font-size: inherit;
+    color: inherit;
+}
+p a{
+    display: inline;
+
+}
+img, video, iframe, picture, figure{
+    max-width: 100%;
+    display: block;
+}
+form, input, select, textarea, button, label{
+    display: block;
+    font-family: inherit;/*Heredado*/
+    font-size: inherit;
+    color: inherit;
+}
